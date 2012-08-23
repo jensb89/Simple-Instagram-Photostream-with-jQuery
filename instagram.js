@@ -1,5 +1,5 @@
 $(document).ready(function(){
-var requesturl="https://api.instagram.com/v1/users/self/feed?access_token=TOKEN";
+var requesturl="https://api.instagram.com/v1/users/{user-id}/media/recent?access_token=TOKEN";
 settings = {count: null}; //anzahl festlegen
 var el=$('.instagram');
 
